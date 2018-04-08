@@ -9,15 +9,15 @@ import java.util.Scanner;
 /*
  Your expected results after the input is provided:
  
- 1.
- 2.
- 3. 
- 4.
+ 1.output 34.50
+ 2.6
+ 3. $25.00
+ 4. million
  
- 5.
- 6.
- 7.
- 8.
+ 5.500
+ 6.600x000
+ 7.none
+ 8.645
   
  */
 
@@ -25,8 +25,9 @@ public class P1_TestInputExpressions {
 
 	public static void main(String[] args) {
 		Scanner console = new Scanner(System.in); 
-		System.out.print("How much money do you have? "); 
+		System.out.print("645"); 
 		double money = console.nextDouble(); 
+		
 
 	}
 
